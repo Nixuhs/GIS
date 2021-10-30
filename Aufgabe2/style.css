@@ -4,6 +4,18 @@ body{
   background-color: rgb(255, 221, 252);
 }
 
+@keyframes pulse {
+  20% {
+    padding: 30px;
+  }
+}
+.Überschrift{
+  width: fit-content;
+  padding: auto;
+  animation: pulse 2s;
+  animation-iteration-count: infinite;
+
+}
 hr, tr th, ul li,
 p {
    color: rosybrown; 
@@ -110,17 +122,5 @@ p {
    text-align: center;
    font-size: 17px;
    height: auto;
-}
-@keyframes pulse {
-  20% {
-    padding: 30px;
-  }
-}
-.Überschrift{
-  width: fit-content;
-  padding: auto;
-  animation: pulse 2s;
-  animation-iteration-count: infinite;
-
 }
 }
