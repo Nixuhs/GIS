@@ -1,0 +1,126 @@
+
+body{
+  font-family:'Zen Antique', serif;
+  background-color: rgb(255, 221, 252);
+}
+
+hr, tr th, ul li,
+p {
+   color: rosybrown; 
+   text-align: center;
+   margin: 0%;
+   font-size: large;
+
+}
+
+h2{
+  color:rosybrown;
+  text-align: center;
+  font-size: xx-large;
+}
+
+.ÜberschriftmitBild{
+  height:100%;
+  width:100%;
+}
+
+.Überschrift {
+  color: white;
+  text-align: center;
+  font-size: 350%;
+  left:10%;
+  right:10%;
+  position: absolute;
+}
+
+.Überschrifthintergrund{ 
+  height:100%;
+  width:100%;
+}
+
+.Fußzeile{
+  text-align: center;
+  background-color: pink;
+  font-size: 200%;
+  color:rosybrown;
+
+}
+.Kopfzeile {
+  text-align: center;
+  background-color: pink;
+  font-size: 200%;
+  color:rosybrown;
+}
+
+nav a {
+  color:rosybrown;
+}
+
+nav {
+  display: inline;
+}
+
+.box {
+  width: 100%;
+  height: auto;
+  padding: 1%;
+}
+.Starttext{
+  margin: 0%;
+  height: 50%;
+  width: 45%;
+  font-size: xx-large;
+}
+
+
+#img1 {
+  margin-left:1%;
+  float:left; 
+  height:50%;
+  width:50%;	
+}
+
+
+.flex{
+  display: inline;
+  justify-content: center;
+}
+
+CSSli:nth-of-type(2n) {
+  background-color: none;
+}
+
+
+li:hover {
+  font-size: 3em;
+  color: pink;
+}
+li::first-letter{
+  font-size:xx-large;
+}
+
+
+@media (max-width: 1200px){
+  .flex{
+    flex-direction: cloumn;
+  }
+  hr, tr th, ul li,
+p {
+   color: rosybrown; 
+   text-align: center;
+   font-size: 17px;
+   height: auto;
+}
+@keyframes pulse {
+  20% {
+    padding: 30px;
+  }
+}
+.Überschrift{
+  width: fit-content;
+  padding: auto;
+  animation: pulse 2s;
+  animation-iteration-count: infinite;
+
+}
+}
