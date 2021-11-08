@@ -1,7 +1,7 @@
 
 body{
   font-family:'Zen Antique', serif;
-  background-color: rgb(255, 221, 252);
+  background-color: #ffddfc;
 }
 
 @keyframes pulse {
@@ -18,7 +18,7 @@ body{
 }
 hr, tr th, ul li,
 p {
-   color: rosybrown; 
+   color: rgb(194, 148, 148); 
    text-align: center;
    margin: 0%;
    font-size: large;
@@ -26,7 +26,7 @@ p {
 }
 
 h2{
-  color:rosybrown;
+  color:rgb(194, 148, 148);
   text-align: center;
   font-size: xx-large;
 }
@@ -52,20 +52,20 @@ h2{
 
 .Fußzeile{
   text-align: center;
-  background-color: pink;
+  background-color: hsla(0, 100%, 90%, 1);
   font-size: 200%;
-  color:rosybrown;
+  color:rgb(194, 148, 148);
 
 }
 .Kopfzeile {
   text-align: center;
-  background-color: pink;
+  background-color: hsla(0, 100%, 90%, 1);
   font-size: 200%;
-  color:rosybrown;
+  color:rgb(194, 148, 148);
 }
 
-nav a {
-  color:rosybrown;
+[href] {
+  color:rgb(194, 148, 148);
 }
 
 nav {
@@ -105,7 +105,7 @@ CSSli:nth-of-type(2n) {
 
 li:hover {
   font-size: 3em;
-  color: pink;
+  color: rgb(194, 148, 148);
 }
 li::first-letter{
   font-size:xx-large;
@@ -118,7 +118,7 @@ li::first-letter{
   }
   hr, tr th, ul li,
 p {
-   color: rosybrown; 
+   color: rgb(194, 148, 148); 
    text-align: center;
    font-size: 17px;
    height: auto;
