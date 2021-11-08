@@ -73,7 +73,8 @@ console.log(Dimensional(events));
 // Lösung d)
 function lösungd(name: string): boolean{
   for(let i:number =0; i< events.length; i++){
-    return true;
+    if(name==events[i][0])
+      return true;
   }
   return false;
 }
