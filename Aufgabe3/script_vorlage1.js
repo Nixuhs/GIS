@@ -113,6 +113,6 @@ let concertArray = [
     new ConcertEvent("Bee Gees", 25.2),
 ];
 for (let i = 0; i < concertArray.length; i++) {
-    concertArray[i].show;
+    concertArray[i].show();
 }
 //# sourceMappingURL=script_vorlage1.js.map
