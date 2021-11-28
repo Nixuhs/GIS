@@ -127,5 +127,5 @@ let concertArray: ConcertEvent[]=[
 
 ];
 for(let i:number = 0; i< concertArray.length; i++){
-  concertArray[i].show;
+  concertArray[i].show();
 }

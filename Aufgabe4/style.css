@@ -1,0 +1,157 @@
+
+body{
+  font-family:'Zen Antique', serif;
+  background-color: #ffddfc;
+}
+
+@keyframes pulse {
+  20% {
+    padding: 30px;
+  }
+}
+.Überschrift{
+  width: fit-content;
+  padding: auto;
+  animation: pulse 2s;
+  animation-iteration-count: infinite;
+
+}
+hr, tr th, ul li,
+p {
+   color: rgb(194, 148, 148); 
+   text-align: center;
+   margin: 0%;
+   font-size: large;
+
+}
+
+button{
+  color: rgb(194, 148, 148); 
+}
+
+#Eventeinfügen{
+  text-align: left;
+}
+
+label {
+  color: rgb(194, 148, 148); 
+}
+
+input{
+  color: rgb(194, 148, 148); 
+}
+
+
+h2{
+  color:rgb(194, 148, 148);
+  text-align: center;
+  font-size: xx-large;
+}
+
+.ÜberschriftmitBild{
+  height:100%;
+  width:100%;
+}
+
+.Überschrift {
+  color: white;
+  text-align: center;
+  font-size: 350%;
+  left:10%;
+  right:10%;
+  position: absolute;
+}
+
+.Überschrifthintergrund{ 
+  height:100%;
+  width:100%;
+}
+
+.Fußzeile{
+  text-align: center;
+  background-color: hsla(0, 100%, 90%, 1);
+  font-size: 200%;
+  color:rgb(194, 148, 148);
+
+}
+.Kopfzeile {
+  text-align: center;
+  background-color: hsla(0, 100%, 90%, 1);
+  font-size: 200%;
+  color:rgb(194, 148, 148);
+}
+
+[href] {
+  color:rgb(194, 148, 148);
+}
+
+nav {
+  display: inline;
+}
+
+.box {
+  width: 100%;
+  height: auto;
+  padding: 1%;
+}
+.Starttext{
+  margin: 0%;
+  height: 50%;
+  width: 45%;
+  font-size: xx-large;
+}
+
+
+#img1 {
+  margin-left:1%;
+  float:left; 
+  height:50%;
+  width:50%;	
+}
+
+
+.flex{
+  display: inline;
+  justify-content: center;
+}
+
+CSSli:nth-of-type(2n) {
+  background-color: none;
+}
+
+
+li:hover {
+  font-size: 3em;
+  color: rgb(194, 148, 148);
+}
+li::first-letter{
+  font-size:xx-large;
+}
+
+
+@media (max-width: 1200px){
+  .flex{
+    flex-direction: cloumn;
+  }
+  hr, tr th, ul li,
+p {
+   color: rgb(194, 148, 148); 
+   text-align: center;
+   font-size: 17px;
+   height: auto;
+}
+}
+
+#tasks{
+  color: rgb(194, 148, 148);
+}
+
+.Tabelle { 
+border: thin solid;
+margin: 0%;
+height: 50%;
+width: 45%; 
+color: rgb(194, 148, 148);
+
+
+}
