@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eventseite</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Zen+Antique&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css"  href="style.css"/>
+    <script src= "client.js" defer></script>
+</head>
+<body onload="getEventsFromServer()">
+    <header>
+        <div class="Kopfzeile">
+        <nav><a href="index.html">STARTSEITE</a></nav> 
+        <nav><a href="event.html">EVENT</a></nav>
+        </div>
+        <div class="ÜberschriftmitBild">
+        <div>
+            <h1 id="event"class="Überschrift">EVENT</h1>
+            <div>
+                <img class = "Überschrifthintergrund" src= "wallpaperflare.com_wallpaper (1).jpg">
+            </div>
+        </div>   
+    </div>
+    </header>
+    <main> 
+        <div class="flex">
+        <div>
+            <h2>Beschreibung</h2>
+        <p class="Standardtext">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+        </p>
+    </div>
+        <audio controls>
+            <source src= "North Oakland Extasy - Squadda B.mp3" type="audio/mpeg" >
+        </audio>
+    </div>   
+    <hr>
+        <div>
+            <h2>Programm</h2>
+        <ul>
+          <li>12:00: Begrüßung</li>
+          <li>13:00: Essen</li>
+          <li>16:00: Live Auftritte</li>
+          <li>open end</li>
+        </ul>
+        <hr>
+        </div>
+    <div>
+        <h2>Live Auftritte</h2>
+        <form>
+            <div>
+                <div>
+                    <label>Interpret</label>
+                    <input placeholder="Interpret" type="text" id="interpret" class="form-control">
+                </div>
+                <div>
+                    <label>Preis</label>
+                    <input placeholder="0.00" type="number" id="preis" class="form-control">
+                </div>
+            </div>
+            <div>
+                <div id="dateSorter">
+                    <label>Datum und Uhrzeit</label>
+                    <input id="datumuhrzeit" type="datetime-local" id="eventDatum" class="form-control">
+                </div>
+            </div>
+            <button onclick="formularbestätiger()" type="button">Enter Event</button>
+        </form>
+        <h2>Event Table</h2>
+        <table>
+            <th>Interpret</th>
+            <th>Preis</th>
+            <th>Datum und Uhrzeit</th>
+            <tbody id="eventTabelle">
+            </tbody>
+        </table>
+           
+        <br>
+        <hr>
+    </div>
+    <div><h2>Anmerkungen</h2>
+        <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+        </p>
+        <hr>
+        <h2>Anfahrt</h2>
+        <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+        </p>
+        <hr>
+    </div> 
+    <div><h2>Kosten</h2>
+            <ul>
+              <li>Kinder: Gratis</li>
+              <li>Erwachsene: 20€</li>
+              <li>Studenten/Schüler: 10€</li>
+        </ul>
+        <hr>
+    </div> 
+</div>
+    </main>
+    <footer>
+        <div class="Fußzeile">
+        <nav><a href="#event">ZURÜCK</a></nav>
+        <nav><a href="https://de.wikipedia.org/wiki/Shanghai">MEHR INFOS FINDEN SIE HIER!</a></nav>
+        </div>
+    </footer>
+</body>
+</html>
